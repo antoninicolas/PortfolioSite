@@ -1,0 +1,299 @@
+/* stylesheet */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+}
+
+.logo img{
+    width:100px;
+    height:auto;
+    position:relative;
+    left:50px;
+}
+
+.heading{
+    color:red;
+    position:absolute;
+    top:30%;
+    width:88%;
+    text-align: center;
+    font-size:64px;
+    font-style: italic;
+}
+
+.info2 img{
+    width:100%;
+    height:100%;
+} 
+
+.header h2 ,ul li a{
+    text-align:center; 
+}
+
+body{
+    background:#ffffe6;
+}
+
+.thing{
+    display:flex;
+    position:relative;
+}
+
+.thing .sidebar{
+    position:fixed;
+    width:200px;
+    height:100%;
+    background:#b3d1ff;
+    padding:30px 0;
+}
+
+.thing .sidebar h1{
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.thing .sidebar ul li{
+    padding:15px;
+} 
+
+.thing .sidebar ul li a{
+    color:#003380;
+    display:block;
+}
+
+.thing .sidebar ul li:hover{
+    background:#003380;
+}
+
+.thing .sidebar ul li:hover a{
+    color:#fff;
+}
+
+.thing .mainthing{
+    width:100%;
+    margin-left:200px; 
+}
+
+.thing .mainthing .header{
+    padding:20px;
+    background:#fff;
+    color:#003380;
+    border-bottom:1px solid #000;
+}
+
+.thing .mainthing .info{
+    margin:20px;
+    color:#000;
+    line-height:25px;
+}
+
+.thing .mainthing .info div{
+    margin-bottom:20px; 
+}
+
+h2{
+    font-size:40px;
+}
+
+.info .HeadingP{
+    font-size:28px;
+    color:#003380;
+}
+
+.mainthing .hero{
+    display:flex;
+}
+
+.mainthing .hero .portpics img, p1{
+    width:85%;
+    height:auto;
+    position:relative;
+    left:30px;
+}
+
+.mainthing .hero .portpics img:hover{
+    position:relative;
+    top:-10px;
+    left:5px; 
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.mainthing .hero .portpics img a:hover{
+    position:relative;
+    top:-10px;
+    left:5px; 
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+p1, p2{
+    font-size:20px;
+    color:#003380;
+}
+
+.mainthing .info2 .hero2{
+    display:flex;
+    width:100%;
+}
+
+.mainthing .info2 .hero2 .biopic img{
+    width:400px; 
+    margin-right:15px;
+}
+
+.mainthing .info2 .hero2 .biotext{
+    width:800px; 
+    text-align:center;
+    margin-top:70px;
+}
+
+h3{
+    font-size:35px;
+    color:#003380;
+}
+
+ form .formcta{
+    border:2px solid #003380;
+    color:#003380;
+    align-items:center;
+    font-size:18px;
+    padding:50px;
+    width:50%;
+}
+
+tr, td{
+    display:block;
+    text-align:center;
+}
+
+.cta{
+    width:100%;
+}
+
+input{
+    width:40%;
+}
+
+p3{
+    font-size:20px;
+    text-align: center;
+}
+
+iframe{
+    text-align:center; 
+}
+
+.info3 .examplepics img{
+    width:95%;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+h4{
+    text-align:center;
+    font-size:30px;
+    color:#003380;
+}
+
+p5{
+    color:#003380;
+    font-size:20px;
+    text-align:center; 
+}
+
+footer{
+    text-align: center;
+    margin-top:10px;
+    background-color:#fff; 
+}
+
+@media screen and (max-width:1139px){
+    *{
+        width:100%;
+    }
+    body{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:1139px){
+    cta{
+        width:75%;
+    }
+}
+
+@media screen and (max-width:1139px){
+    .thing{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:1139px){
+    .mainthing .info2{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:795px){
+    h4{
+        font-size:20px;
+    }
+    p5{
+        font-size:10px;
+    }
+    p1{
+        font-size:15px;
+    }
+    .mainthing .info .HeadingP{
+        font-size:25px;
+    }
+    p3{
+        font-size:18px;
+    }
+    .mainthing .hero .portpics img:hover{
+        position:relative;
+        top:-10px;
+        left:5px; 
+        width:200px;
+        height:auto;
+        display:block;
+        z-index:999;
+    }
+    .mainthing .hero .portpics img a:hover{
+        position:relative;
+        top:-10px;
+        left:5px; 
+        width:200px;
+        height:auto;
+        display:block;
+        z-index:999;
+    }
+    .heading{
+         color:red;
+        position:absolute;
+        top:30%;
+        width:88%;
+        text-align: center;
+        font-size:15
+            px;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width:375px){
+    .thing .sidebar{
+        width:20%;
+    }
+}
+
